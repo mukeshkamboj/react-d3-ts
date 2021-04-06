@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 95vh;
+  padding: 2vh;
+}
+
+.view-section {
+  overflow: auto;
+  min-width: 85%;
+}
+
+.options {
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  border-right: 2px solid;
+  min-width: 15%;
+}
+
+.option {
+  display: flex;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.selectedOption {
+  background-color: #61dafb;
+  cursor: default;
+  padding: 2px;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.right-arrow {
+  border-right: 12px solid transparent;
+  border-left: 12px solid #61dafb;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  cursor: default;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
